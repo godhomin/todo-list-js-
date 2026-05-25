@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background-color: #f5f5f5;
+}
+ 
+h1 {
+  color: #333;
+}
+ 
+input {
+  padding: 8px;
+  width: 250px;
+  font-size: 16px;
+}
+ 
+button {
+  padding: 8px 14px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+ 
+ul {
+  margin-top: 20px;
+  padding: 0;
+}
+ 
+li {
+  list-style: none;
+  margin: 8px 0;
+  font-size: 16px;
+}
+ 
+li.done {
+  text-decoration: line-through;
+  color: gray;
+}
+ 
+li button {
+  background-color: #e74c3c;
+  font-size: 13px;
+  padding: 4px 8px;
+  margin-left: 8px;
+}
+ 
+li .btn-done {
+  background-color: #3498db;
+}
+ 
+li .btn-edit {
+  background-color: #f39c12;
+}
