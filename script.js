@@ -46,7 +46,7 @@ function doneTodo(i) {
  
 // 수정 함수
 function editTodo(i) {
-  let newText = alert("수정할 내용을 입력하세요", todos[i].text);
+  let newText = prompt("수정할 내용을 입력하세요", todos[i].text);
  
   if (newText != null && newText != "") {
     todos[i].text = newText;
